@@ -1,0 +1,7 @@
+User : hi
+User : Hi
+Bot : Hi there, how can I help?
+User : Hi
+Bot : Good to see you again
+User : Hi
+Bot : Hello, thanks for asking

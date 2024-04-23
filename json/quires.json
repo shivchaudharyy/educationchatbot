@@ -1,0 +1,1712 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Hi there",
+            "How are you",
+            "Is anyone there?",
+            "Hey",
+            "Hola",
+            "Hello",
+            "Good day"
+         ],
+         "responses": [
+            "Hello, thanks for asking",
+            "Good to see you again",
+            "Hi there, how can I help?"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "goodbye",
+         "patterns": [
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Nice chatting to you, bye",
+            "Till next time"
+         ],
+         "responses": [
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "thanks",
+         "patterns": [
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+         ],
+         "responses": [
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "noanswer",
+         "patterns": [],
+         "responses": [
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "options",
+         "patterns": [
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+         ],
+         "responses": [
+            "We offer lot courses on programming language for Software Developers",
+            "This is a  Software institute we provide hands on training for student and working professionals on latest technologies"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "courses_offered",
+         "patterns": [
+            "What are the courses do you provide?",
+            "Can you tell me the best language ever?",
+            "What language can I start for programming",
+            "I am a beginner and I need to learn a new language"
+         ],
+         "responses": [
+            "We provide training  on various programming languages like C,C++,Python,Java,Web Technoligies,Cloud Technologies,Data Base,Data              Science,Big Data",
+            "Without a doubt, Python is the most BEAUTIFUL language ever! You can start learning it anytime",
+            "I am a fan of Python. It's my favorite ever. If you don't believe me, try it yourself"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Placement_details",
+         "patterns": [
+            "Do you provide placements support?"
+         ],
+         "responses": [
+            "Yes, we provide placment to all students who have enrolled course in our institute based on internal assesments which are                  conducted by institute at regular interval of time"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "C_language",
+         "patterns": [
+            "What will you tech on C language?"
+         ],
+         "responses": [
+            "We will cover all concepts from basic to advanced level in C"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "C_language_duration",
+         "patterns": [
+            "What will be duration of C language course?"
+         ],
+         "responses": [
+            "Duration of course is 3Months and 2 hours a day"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "C_language_fees",
+         "patterns": [
+            "What is the cost of C language course?"
+         ],
+         "responses": [
+            "Cost of course is Rs.1999/- only"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "C_language_mentor",
+         "patterns": [
+            "Who is mentor of C language course?"
+         ],
+         "responses": [
+            "Mr.Kiran is the mentor for the course"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "C_language_syllabus",
+         "patterns": [
+            "What is syllabus of C language course?"
+         ],
+         "responses": [
+            "The Syllabus is Basics, Input/Output, Data Types, Variables, Operators, Control Flow, Functions, Memorey Organisations,                      Pointer,Arrays,Strings,Macros,Structres and Union, File handling"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Python",
+         "patterns": [
+            "What are the courses do you provide on python?",
+            "Python course",
+            "py course"
+         ],
+         "responses": [
+            "We provide Core and Advanced Python,Data Structures with Python,Web Backend with Python,Data Science with Python"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "duration",
+         "patterns": [
+            "What is duration of Course for Core and Advance Python?"
+         ],
+         "responses": [
+            "Duration of course is 3Months and 2 hours a day"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Python_Cost",
+         "patterns": [
+            "What is the Cost for Core and Advanced Python?"
+         ],
+         "responses": [
+            "Cost for Core and Advanced Python is Rs 5000.00"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Python_Mentor",
+         "patterns": [
+            "Who is mentor for Course on Core and Advanced Python?"
+         ],
+         "responses": [
+            "Mr.khushwant is mentor for Course on Core and Advanced Python"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Python_Syllabus",
+         "patterns": [
+            "Can you provide full syllabus for Core and Advanced Python?"
+         ],
+         "responses": [
+            "The Syllabus is Basics, Input/Output, Data Types, Variables, Operators, Control Flow, Functions, Object Oriented Concepts,                  Exception Handling, Python Collections, OS concepts, Threads, Regular Expressions, Data Bases, Files"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Data_science",
+         "patterns": [
+            "What are the courses do you provide on Data Science?"
+         ],
+         "responses": [
+            "We provide Data Analytics,Data Visualization,Machine Learning,Deep Learning and NLP"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Data_science_duration",
+         "patterns": [
+            "What is duration of Course for Data Science?"
+         ],
+         "responses": [
+            "Duration of course is 6 Months and 4 hours a day"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Data_science_cost",
+         "patterns": [
+            "What is the Cost for Corse on Data Science?"
+         ],
+         "responses": [
+            "Cost for Corse on Data Science  is Rs 35000.00"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Data_science_mentor",
+         "patterns": [
+            "Who is mentor for Course on Data Science?"
+         ],
+         "responses": [
+            "Mr.Krish is mentor for Course on Data Science"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Data_science_syllabus",
+         "patterns": [
+            "Can you provide full syllabus for Data science?"
+         ],
+         "responses": [
+            "The Syllabus is Numpy and Pandas for data analytics, Matplotlib and seaborn for data visualization, Supervised - UnSupervised -              Reinforcement Learning-Clustering - PCA - Aprori&Elcat for machine learning, ANN-CNN-RNN-GAN for Deep learning, Word Embedding-              Word to Rec-Bag of Words-Stemming for NLP"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Big_data",
+         "patterns": [
+            "What do you teach in big-data?"
+         ],
+         "responses": [
+            "We cover hadoop and spark concepts using python/scala"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Big_data_duration",
+         "patterns": [
+            "What is the duration of big-data course?"
+         ],
+         "responses": [
+            "Duration of course is 6 Months and 4 hours a day"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Big_data_mentor",
+         "patterns": [
+            "Who is mentor for this course?"
+         ],
+         "responses": [
+            "Mr.Vijay is the mentor for this course"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Big_data_fees_details",
+         "patterns": [
+            "Who is fees for big data course course?"
+         ],
+         "responses": [
+            "Cost for this course is Rs.10000"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Big_data_syllabus",
+         "patterns": [
+            "Can you provide full syllabus for Data science?"
+         ],
+         "responses": [
+            "The Syllabus is HDFS,Map-Reduce,Sqoop,Yarn,Pig,Hive,NoSql,Hbase,Spark Core,RDD,Persistence options,Gruoping and                               Aggetation,SparkSQL and Spark Application"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "AWS",
+         "patterns": [
+            "What do you teach in AWS?"
+         ],
+         "responses": [
+            "We cover AWS from beginer to expert"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "AWS_duration",
+         "patterns": [
+            "What is the duration of AWS course?"
+         ],
+         "responses": [
+            "Duration of course is 3 Months and 2 hours a day"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "AWS_mentor",
+         "patterns": [
+            "Who is mentor for this course?"
+         ],
+         "responses": [
+            "Mr.Srinivas is the mentor for this course"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "AWS_fees_details",
+         "patterns": [
+            "Who is fees for AWS course course?"
+         ],
+         "responses": [
+            "Cost for this course is Rs.3500"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "AWS_syllabus",
+         "patterns": [
+            "Can you provide full syllabus for AWS?"
+         ],
+         "responses": [
+            "The Syllabus is EC2,EBS,Elastic IP address,Identity and Access Management (IAM),S3,Glacier,VPC,Auto Scaling,Elastic Load                    Balancer,cloud watch,Simple notification service (SNS), Route 53, Cloud front, Elastic Bean Stalk,Simple Queue Service(SQS),                Cloud formation and RDS"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Java",
+         "patterns": [
+            "What are the courses do you provide on Java?"
+         ],
+         "responses": [
+            "We provide Core and Advanced Java,Data Structures with Java,Web Backend with Java(JDBC,Servelets,JSP),Frameworks"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Java_duration",
+         "patterns": [
+            "What is duration of Course for Core and Advance Java?"
+         ],
+         "responses": [
+            "Duration of course is 3Months and 2 hours a day"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Timing",
+         "patterns": [
+            "What is Timings?,timings for course"
+         ],
+         "responses": [
+            "10 am - 12pm and 5pm-7pm. varies department to department"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Java_Cost",
+         "patterns": [
+            "What is the Cost for Core and Advanced Java?"
+         ],
+         "responses": [
+            "Cost for Core and Advanced Java is Rs 5000.00"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Java_Mentor",
+         "patterns": [
+            "Who is mentor for Course on Core and Advanced Java?"
+         ],
+         "responses": [
+            "Mr.Nagoor is mentor for Course on Core and Advanced Python"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Java_Syllabus",
+         "patterns": [
+            "Can you provide full syllabus for Core and Advanced Java?"
+         ],
+         "responses": [
+            "The Syllabus is Basics, Input/Output, Data Types, Variables, Operators, Control Flow, Functions, Object Oriented Concepts,                  Exception Handling, Collections, OS concepts, Threads, Regular Expressions, Files, Serialization and Deserialization, Inner                  Class, Java.lang.package"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Java_Frameworks",
+         "patterns": [
+            "What are the courses do you provide on Java FrameWork?"
+         ],
+         "responses": [
+            "We provide Java Frameworks like Hibernate, Struts and SpringBoot "
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Java_Frameworks_duration",
+         "patterns": [
+            "What is duration of Course for Core and Advance Java?"
+         ],
+         "responses": [
+            "Duration of course is 3Months and 2 hours a day"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Java_Frameworks_cost",
+         "patterns": [
+            "What is the Cost for Core and Advanced Java?"
+         ],
+         "responses": [
+            "Cost for  Java Frameworks is Rs 3000.00"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Java_Frameworks_mentor",
+         "patterns": [
+            "Who is mentor for Course on Core and Advanced Java?"
+         ],
+         "responses": [
+            "Mr.Nagoor is mentor for Course on Java FrameWorks"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Java_Frameworks_syllabus",
+         "patterns": [
+            "Can you provide full syllabus for Core and Advanced Java?"
+         ],
+         "responses": [
+            "Please vist  khushwantsoft javaframeworks works web site for entire details"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Web_Development_Python",
+         "patterns": [
+            "What are the courses do you provide on Web Development with Python?"
+         ],
+         "responses": [
+            "We provide basics of web tech like HTML, CSS, JScript, JQuerry and Django + REST API with Python"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Web_Development_Python_duration",
+         "patterns": [
+            "What is duration of Course for Web Development with Python?"
+         ],
+         "responses": [
+            "Duration of course is 3Months and 2 hours a day"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Web_Development_Python_cost",
+         "patterns": [
+            "What is the Cost for Web Development with Python?"
+         ],
+         "responses": [
+            "Cost for  Python with web-development is Rs 5000.00"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Web_Development_Python_mentor",
+         "patterns": [
+            "Who is mentor for Course on Web Development with Python?"
+         ],
+         "responses": [
+            "Mr.khushwant is mentor for Course on Web Development with Python"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Web_Development_Python_syllabus",
+         "patterns": [
+            "Can you provide full syllabus for Web Development with Python?"
+         ],
+         "responses": [
+            "Please refer khushwantsoft website for web-tech syllabus and django"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Web Development Java",
+         "patterns": [
+            "What are the courses do you provide on Web Development with Java?"
+         ],
+         "responses": [
+            "We provide basics of web tech like HTML, CSS, JScript, JQuerry and Java JDBC,Servlets,JSP "
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Web_Development_Java_duration",
+         "patterns": [
+            "Waht is duration of Course for Web Development with Java?"
+         ],
+         "responses": [
+            "Duration of course is 3Months and 2 hours a day"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Web_Development_Java_cost",
+         "patterns": [
+            "What is the Cost for Web Development with Java?"
+         ],
+         "responses": [
+            "Cost for  Java with web development is Rs 5000.00"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Web Development Java",
+         "patterns": [
+            "Who is mentor for Course on Web Development with Java?"
+         ],
+         "responses": [
+            "Mr.Nagoor Babu is mentor for Course on Web Development with Java"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Python Data Types?",
+            "data types"
+         ],
+         "responses": [
+            "Python Data types are the classification or categorization of data items. It represents the kind of value that tells what operations can be performed on a particular data. Since everything is an object in Python programming, Python data types are classes and variables are instances (objects) of these classes. \nThe following are the standard or built-in data types in Python:/n Numeric\nSequence Type\nBoolean\nSet\n"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "File Handling",
+            "handling"
+         ],
+         "responses": [
+            "The key function for working with files in Python is the open() function.\nThe open() function takes two parameters; filename, and mode.r- Read - Default value. Opens a file for reading, error if the file does not exist\n a - Append - Opens a file for appending, creates the file if it does not exist\n w - Write - Opens a file for writing, creates the file if it does not exist\n x - Create - Creates the specified file, returns an error if the file exists"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "what is python ",
+            "python language"
+         ],
+         "responses": [
+            "Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.\nIt is used for:\nweb development (server-side),\nsoftware development,\nmathematics,\nsystem scripting."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "python can do",
+            "what can python do"
+         ],
+         "responses": [
+            "Python can be used on a server to create web applications.\nPython can be used alongside software to create workflows.\nPython can connect to database systems. It can also read and modify files.\nPython can be used to handle big data and perform complex mathematics.\nPython can be used for rapid prototyping, or for production-ready software development."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Python Indentation",
+            "indentation"
+         ],
+         "responses": [
+            "Indentation refers to the spaces at the beginning of a code line.\n Where in other programming languages the indentation in code is for readability only, the \nindentation in Python is very important.\nPython uses indentation to indicate a block of code."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "python variable",
+            "variable"
+         ],
+         "responses": [
+            "In Python, variables are created when you assign a value to it:/n x = 5\ny = Hello, World! \n Python has no command for declaring a variable"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "comments",
+            "python comments"
+         ],
+         "responses": [
+            "Python has commenting capability for the purpose of in-code documentation. \nComments start with a #, and Python will render the rest of the line as a comment:\n#This is a comment.print(Hello, World!)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Multiline Comments",
+            ""
+         ],
+         "responses": [
+            "Python does not really have a syntax for multiline comments.\nTo add a multiline comment you could insert a # for each line:#This is a comment\n#written in\n#more than just one line\nprint(Hello, World!)Or, not quite as intended, you can use a multiline string.\nSince Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Creating Variables",
+            ""
+         ],
+         "responses": [
+            "Python has no command for declaring a variable.\nA variable is created the moment you first assign a value to it.x = 5\ny = John\nprint(x)\nprint(y)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Casting",
+            ""
+         ],
+         "responses": [
+            "If you want to specify the data type of a variable, this can be done with casting.x = str(3)    # x will be '3'\ny = int(3)    # y will be 3\nz = float(3)  # z will be 3.0"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Get the Type",
+            "type"
+         ],
+         "responses": [
+            "You can get the data type of a variable with the type() function.x = 5\n y = John\nprint(type(x))\nprint(type(y))"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Single or Double Quotes",
+            "single and double quotes"
+         ],
+         "responses": [
+            "x = John\n# is the same as\nx = 'John'"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Case-Sensitive",
+            "case sensitive"
+         ],
+         "responses": [
+            "Variable names are case-sensitive.a = 4\nA = Sally\n#A will not overwrite a"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Variable Names",
+            ""
+         ],
+         "responses": [
+            "A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:\nA variable name must start with a letter or the underscore character\nA variable name cannot start with a number\nA variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )\nVariable names are case-sensitive (age, Age and AGE are three different variables)\nA variable name cannot be any of the Python keywords.myvar = John\nmy_var = John\n_my_var = John\nmyVar = John\n MYVAR = John\nmyvar2 = John"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "multi words variable names",
+            ""
+         ],
+         "responses": [
+            "Variable names with more than one word can be difficult to read.\nThere are several techniques you can use to make them more readable:"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Camel Case",
+            "camel case"
+         ],
+         "responses": [
+            "Each word, except the first, starts with a capital letter:myVariableName = John"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Pascal Case",
+            "pascal case"
+         ],
+         "responses": [
+            "Each word starts with a capital letter:MyVariableName = John,"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Snake Case",
+            "snake case"
+         ],
+         "responses": [
+            "Each word is separated by an underscore character:my_variable_name = John"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Many Values to Multiple Variables",
+            "many value to multiple variable"
+         ],
+         "responses": [
+            "Python allows you to assign values to multiple variables in one line:x, y, z = Orange, Banana, Cherry\nprint(x)\nprint(y)\nprint(z)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "One Value to Multiple Variables",
+            "one value to multiple variable"
+         ],
+         "responses": [
+            "And you can assign the same value to multiple variables in one line:x = y = z = Orange\nprint(x)\nprint(y)\nprint(z)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Unpack a Collection",
+            "unpack collection"
+         ],
+         "responses": [
+            "If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.fruits = [apple, banana, cherry\nx, y, z = fruits\nprint(x)\nprint(y)\nprint(z)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Output Variables",
+            "output variabe"
+         ],
+         "responses": [
+            "The Python print() function is often used to output variables \nx = Python is awesome\nprint(x)In the print() function, you output multiple variables, separated by a comma:x = Python\\ny = is\nz = awesome\nprint(x, y, z) You can also use the + operator to output multiple variables:x = Python \n y = is \nz = awesome\nprint(x + y + z)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Global Variables",
+            "global variable"
+         ],
+         "responses": [
+            "Variables that are created outside of a function (as in all of the examples above) are known as global variables.\n Global variables can be used by everyone, both inside of functions and outside.x = awesome\ndef myfunc():\nprint(Python is  + x)\nmyfunc()"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Global Keyword",
+            "global keyword"
+         ],
+         "responses": [
+            "Normally, when you create a variable inside a function, that variable is local, and can only be used inside that function.\nTo create a global variable inside a function, you can use the global keyword.def myfunc():\nglobal x\nx =fantastic\nmyfunc()\nprint(Python is  + x)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Built-in Data Types",
+            "built in data types"
+         ],
+         "responses": [
+            "In programming, data type is an important concept.\nVariables can store data of different types, and different types can do different things.\nPython has the following data types built-in by default, in these categories:Text Type:str numeric types int,float,complex \n sequence types list,tuple,range \n mapping types list,tuples,range\nset types set,frozenset"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Getting the Data Type",
+            "getting the data type"
+         ],
+         "responses": [
+            "You can get the data type of any object by using the type() function:x = 5\nprint(type(x))"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Setting the Data Type",
+            "setting the data type"
+         ],
+         "responses": [
+            "In Python, the data type is set when you assign a value to a variablex = Hello World \n x=20 int\n x=20.5 float\nx=1j complex\n x=[apple,banana,cherry]\nx=(apple,banana ,cheery) tuple\nx=range(6) range"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Python Numbers",
+            "python number"
+         ],
+         "responses": [
+            "There are three numeric types in Python:\nint\nfloat\ncomplex\nVariables of numeric types are created when you assign a value to them:x = 1    # int \n y = 2.8  # float\nz = 1j   # complex"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Int",
+            "int"
+         ],
+         "responses": [
+            "Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.x = 1\ny = 35656222554887711\nz = -3255522\n print(type(x))\n print(type(y))\nprint(type(z))"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Float",
+            "float"
+         ],
+         "responses": [
+            "Float, or floating point number is a number, positive or negative, containing one or more decimals.x = 1.10\ny = 1.0\nz = -35.59\nprint(type(x))\nprint(type(y))\nprint(type(z))"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Complex",
+            "complex"
+         ],
+         "responses": [
+            "Complex numbers are written with a j as the imaginary part:x = 3+5\ny = 5j\nz = -5jnprint(type(x))\nprint(type(y)) \nprint(type(z))"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Type Conversion",
+            "type conversion"
+         ],
+         "responses": [
+            "You can convert from one type to another with the int(), float(), and complex() methods:x = 1    # int\ny = 2.8  # float\nz = 1j   # complex\n#convert from int to float:\na = float(x)\n #convert from float to int:\nb = int(y\n#convert from int to complex:\nc = complex(x)\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))\nprint(type(c))"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Random Number",
+            "random number"
+         ],
+         "responses": [
+            "Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbersimport random\nprint(random.randrange(1, 10))"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Random Number",
+            "random number"
+         ],
+         "responses": [
+            "Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbersimport random\nprint(random.randrange(1, 10))"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Random Number",
+            "random number"
+         ],
+         "responses": [
+            ""
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Specify a Variable Type",
+            "specify variable type"
+         ],
+         "responses": [
+            "Assigning a string to a variable is done with the variable name followed by an equal sign and the string:a = Hello\nprint(a)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Strings",
+            "string"
+         ],
+         "responses": [
+            "Strings in python are surrounded by either single quotation marks, or double quotation marks.\n'hello' is the same as hello.\nYou can display a string literal with the print() function:print(Hello)\nprint('Hello')"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Assign String to a Variable",
+            "assign string to variable"
+         ],
+         "responses": [
+            "Strings in python are surrounded by either single quotation marks, or double quotation marks.\n'hello' is the same as hello.\nYou can display a string literal with the print() function:print(Hello)\nprint('Hello')"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Multiline Strings",
+            "multiple string"
+         ],
+         "responses": [
+            "You can assign a multiline string to a variable by using three quotes:a = Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit,\nsed do eiusmod tempor incididunt\nut labore et dolore magna aliqua.\n print(a)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Strings are Arrays",
+            "string are array"
+         ],
+         "responses": [
+            "Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters.\nHowever, Python does not have a character data type, a single character is simply a string with a length of 1.\nSquare brackets can be used to access elements of the string.a = Hello, World!\nprint(a[1])"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Looping Through a String",
+            "looping through a string"
+         ],
+         "responses": [
+            "Since strings are arrays, we can loop through the characters in a string, with a for loop \n for x in banana: \nprint(x)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "String Length",
+            "string length"
+         ],
+         "responses": [
+            "To get the length of a string, use the len() function The len() function returns the length of a string:\na = Hello, World!\nprint(len(a)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Check String",
+            "check string"
+         ],
+         "responses": [
+            "To check if a certain phrase or character is present in a string, we can use the keyword in. \nCheck if free is present in the following text txt = The best things in life are free!print(free in txt)           "
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Check if NOT",
+            "check if not"
+         ],
+         "responses": [
+            " To check if a certain phrase or character is NOT present in a string, we can use the keyword not in.\nCheck if expensive is NOT present in the following text:\ntxt = The best things in life are free!\nprint(expensive not in txt)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Slicing",
+            "slicing"
+         ],
+         "responses": [
+            " You can return a range of characters by using the slice syntax.\nSpecify the start index and the end index, separated by a colon, to return a part of the string \n b = Hello, World!\nprint(b[2:5])"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Slice From the Start",
+            "slice from start"
+         ],
+         "responses": [
+            "By leaving out the start index, the range will start at the first character:\n b = Hello, World!\nprint(b[:5])"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Slice To the End",
+            "slice to the end"
+         ],
+         "responses": [
+            "By leaving out the end index, the range will go to the end:\nb = Hello, World!\n print(b[2:])"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Negative Indexing",
+            "negative indexing"
+         ],
+         "responses": [
+            "Use negative indexes to start the slice from the end of the string:\nGet the characters:\nFrom: oin World! (position -5)\nTo, but not included: d in World! (position -2):\n b = Hello, World!\nprint(b[-5:-2])"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Upper Case",
+            "upper case"
+         ],
+         "responses": [
+            "The upper() method returns the string in upper case:\na = Hello, World!\nprint(a.upper())"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Lower Case",
+            "lower case"
+         ],
+         "responses": [
+            "The lower() method returns the string in lower case:\na = Hello, World!\n print(a.lower()"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Remove Whitespace",
+            "remove whitespacee"
+         ],
+         "responses": [
+            "The strip() method removes any whitespace from the beginning or the end:\na =  Hello, World! \nprint(a.strip()) # returns Hello, World"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Split String",
+            "split string"
+         ],
+         "responses": [
+            "The split() method returns a list where the text between the specified separator becomes the list itemsThe split() method splits the string into substrings if it finds instances of the separator:\n a = Hello, World!\nprint(a.split(,)) # returns ['Hello', ' World!']."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "String Methods",
+            "string methods"
+         ],
+         "responses": [
+            ""
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "String Concatenation",
+            "string concatenetion"
+         ],
+         "responses": [
+            "To concatenate, or combine, two strings you can use the + operator.\nMerge variable a with variable b into variable c:\na = Hello\nb = World\nc = a + b\nprint(c)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "String Format",
+            "string format"
+         ],
+         "responses": [
+            "As we learned in the Python Variables chapter, we cannot combine strings and numbers like this:\nage = 36\ntxt = My name is John, I am  + age\nprint(txt)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Escape Character",
+            "escape character"
+         ],
+         "responses": [
+            "To insert characters that are illegal in a string, use an escape character.\nAn escape character is a backslash  followed by the character you want to insert.\nAn example of an illegal character is a double quote inside a string that is surrounded by double quotes:"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Escape Characters",
+            "escape characters"
+         ],
+         "responses": [
+            "Single Quote\n Backslash\n New Line\n Carriage Return\n Tab\n Backspace\nForm Feed"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "String Methods",
+            "string methods"
+         ],
+         "responses": [
+            "Capitalize\n casefold\n center\n count\nencode"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Boolean Values",
+         "patterns": [
+            "Boolean Values",
+            "boolean values"
+         ],
+         "responses": [
+            "In programming you often need to know if an expression is True or False. \nYou can evaluate any expression in Python, and get one of two answers, True or False.\nWhen you compare two values, the expression is evaluated and Python returns the Boolean answer:\nprint(10 > 9)\nprint(10 == 9)\nprint(10 < 9)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Evaluate Values and Variables",
+            "evaluate values and variables"
+         ],
+         "responses": [
+            "The bool() function allows you to evaluate any value, and give you True or False in return,"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Functions can Return a Boolean",
+            "function can return a bollean"
+         ],
+         "responses": [
+            "def myFunction() :\nreturn True\nprint(myFunction())"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Python Operators",
+            "python operators"
+         ],
+         "responses": [
+            "Operators are used to perform operations on variables and values.\nIn the example below, we use the + operator to add together two values:"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "arithmetic operators",
+            "arithmetic operators"
+         ],
+         "responses": [
+            "+ addition - substraction * multiplication / division % modules"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "List",
+            "list"
+         ],
+         "responses": [
+            "Lists are used to store multiple items in a single variable.\n Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "List Items",
+            "list items"
+         ],
+         "responses": [
+            "List items are ordered, changeable, and allow duplicate values.\n List items are indexed, the first item has index [0], the second item has index [1] etc.\n Ordered\nWhen we say that lists are ordered, it means that the items have a defined order, and that order will not change.\nIf you add new items to a list, the new items will be placed at the end of the list.Changeable\nThe list is changeable, meaning that we can change, add, and remove items in a list after it has been created."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "List Length",
+            "list length"
+         ],
+         "responses": [
+            "To determine how many items a list has, use the len() function:\nthislist = [apple, banana, cherry]\n print(len(thislist))"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "List Items - Data Types",
+            "list item data types"
+         ],
+         "responses": [
+            "String, int and boolean data types:\nlist1 = [apple, banana, cherry\n list2 = [1, 5, 7, 9, 3]\nlist3 = [True, False, False]"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Constructor",
+            "constructor"
+         ],
+         "responses": [
+            "It is also possible to use the list() constructor when creating a new list.\nthislist = list((apple, banana, cherry)) # note the double round-bracket\nprint(thislist)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Python Collections",
+            "python collections"
+         ],
+         "responses": [
+            "There are four collection data types in the Python programming language:\n List is a collection which is ordered and changeable. Allows duplicate members \nTuple is a collection which is ordered and unchangeable. Allows duplicate members.\nSet is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.\nDictionary is a collection which is ordered** and changeable. No duplicate members."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Add List Items",
+            "add list items"
+         ],
+         "responses": [
+            "Append Items\nTo add an item to the end of the list, use the append() method:\nUsing the append() method to append an item: \nthislist = [apple, banana, cherry]\nthislist.append(orange)\nprint(thislist)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Insert Items",
+            "insert  items"
+         ],
+         "responses": [
+            "To insert a list item at a specified index, use the insert() method.\n The insert() method inserts an item at the specified index:\nthislist = [apple, banana, cherry]\n thislist.insert(1, orange\n print(thislist)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Remove Specified Item",
+            "remove specified item"
+         ],
+         "responses": [
+            "The remove() method removes the specified item.\nthislist = [apple, banana, cherry]\nthislist.remove(banana)\nprint(thislist)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "List Comprehension",
+            "list comprehension"
+         ],
+         "responses": [
+            "List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.\nExample:\nBased on a list of fruits, you want a new list, containing only the fruits with the letter a in the name.\nWithout list comprehension you will have to write a for statement with a conditional test inside:"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Iterable",
+            "iterable"
+         ],
+         "responses": [
+            "The iterable can be any iterable object, like a list, tuple, set etc.\nExample\nYou can use the range() function to create an iterable:\nnewlist = [x for x in range(10)]"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Expression",
+            "expression"
+         ],
+         "responses": [
+            "The expression is the current item in the iteration, but it is also the outcome, which you can manipulate before it ends up like a list item in the new list:\n newlist = [x.upper() for x in fruits]"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "join list",
+            ""
+         ],
+         "responses": [
+            "There are several ways to join, or concatenate, two or more lists in Python.One of the easiest ways are by using the + operator.\nlist1 = [a, b, c]\nlist2 = [1, 2, 3]\nlist3 = list1 + list2\nprint(list3)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "list methods",
+            ""
+         ],
+         "responses": [
+            "append() clear() copy() count() extend() index() insert() pop() remove() reverse() sort()"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "tuple",
+            "Tuple"
+         ],
+         "responses": [
+            "Tuples are used to store multiple items in a single variable. Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage. A tuple is a collection which is ordered and unchangeable Tuples are written with round brackets."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "Tuple Items",
+            "tuple item"
+         ],
+         "responses": [
+            "Tuple items are ordered, unchangeable, and allow duplicate values.Tuple items are indexed, the first item has index [0], the second item has index [1] etcOrderedWhen we say that tuples are ordered, it means that the items have a defined order, and that order will not change.UnchangeableTuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.Allow DuplicatesSince tuples are indexed, they can have items with the same value:"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "python topic",
+         "patterns": [
+            "",
+            ""
+         ],
+         "responses": [
+            ""
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Web_Development_Java_syllabus",
+         "patterns": [
+            "Can you provide full syllabus for Web Development with Java?"
+         ],
+         "responses": [
+            "Please refer w3 schools for web-tech,JDBC,Servlets,JSP"
+         ],
+         "context": [
+            ""
+         ]
+      }
+   ]
+}
